@@ -227,7 +227,7 @@ Raw data access is restricted to authorized team members only.
 
 ## Team
 
-Built by a student team from Fakultas Informatika, Universitas Telkom as part of a data warehouse course project.
+Built by a student team from Fakultas Informatika, Universitas Telkom as part of a data warehouse & business intelligence course project.
 
 <!-- Add your team members below -->
 <!--
