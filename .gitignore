@@ -1,0 +1,40 @@
+# ============================================================
+# DATA CONFIDENTIAL — jangan pernah push ke repository publik
+# ============================================================
+
+# Database dump (berisi data asli dosen & penelitian)
+dumping-warehouse/
+
+# File sumber data mentah
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+
+# Power BI (bisa mengandung cache data)
+*.pbix
+*.pbit
+
+# Environment & koneksi database
+.env
+.env.*
+*.env
+database.yml
+connection.ini
+config.ini
+
+# ============================================================
+# OS & Editor
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ============================================================
+# Temporary & log
+# ============================================================
+*.log
+*.tmp
