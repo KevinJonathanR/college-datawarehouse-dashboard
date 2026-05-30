@@ -8,7 +8,7 @@ A team project building an end-to-end **data warehouse and business intelligence
 ## Team Project
 
 ### Data Warehouse Team:
-1. Kevin Jonathan Rotty - Team Lead
+1. Kevin Jonathan Rotty - Team Lead [@KevinJonathanR](https://github.com/KevinJonathanR)
 
 ### Dashboard Team:
 1. Kevin Jonathan Rotty - Team Lead
