@@ -28,6 +28,16 @@ A team project building an end-to-end **data warehouse and business intelligence
 
 *Screenshots coming soon — or view the live dashboard [here](#).*
 
+### KPIs Tracked
+
+| # | Focus Area | Metrics |
+|---|---|---|
+| 1 | **Lecturer & Study Program Performance** | Avg. publications per lecturer · Research & publication distribution by study program · Student involvement rate in research |
+| 2 | **Research Funding** | Total grant absorption · Fund efficiency ratio (grant received vs. spent) |
+| 3 | **Publication Quality & Impact** | Citation count per publication · Percentage of internationally/nationally indexed publications |
+| 4 | **Research Collaboration** | International collaboration reach · Collaborator type breakdown (industry vs. university) |
+| 5 | **Research Efficiency** | Research-to-publication conversion rate · Avg. time from research to publication · Avg. citations per research |
+
 ---
 
 ## Tech Stack
