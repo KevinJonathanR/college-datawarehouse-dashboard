@@ -5,16 +5,6 @@ A team project building an end-to-end **data warehouse and business intelligence
 
 ---
 
-## Team Project
-
-### Data Warehouse Team:
-1. Kevin Jonathan Rotty - Team Lead [@KevinJonathanR](https://github.com/KevinJonathanR)
-
-### Dashboard Team:
-1. Kevin Jonathan Rotty - Team Lead
-
----
-
 ## Dashboard Preview
 
 > **Power BI Dashboard** — hosted and connected to Railway MySQL
@@ -25,8 +15,6 @@ A team project building an end-to-end **data warehouse and business intelligence
 <!-- ![Dashboard Overview](docs/assets/dashboard-overview.png) -->
 <!-- ![Research Trends](docs/assets/dashboard-research-trends.png) -->
 <!-- ![Publication Metrics](docs/assets/dashboard-publication-metrics.png) -->
-
-*Screenshots coming soon — or view the live dashboard [here](#).*
 
 ### KPIs Tracked
 
@@ -112,37 +100,7 @@ The warehouse follows a **3-layer ETL architecture**:
 
 ## Star Schema (Layer 3)
 
-```
-                    ┌──────────────────┐
-                    │   dim_waktu      │
-                    │  id_waktu (PK)   │
-                    │  tahun           │
-                    │  triwulan        │
-                    └────────┬─────────┘
-                             │
-  ┌──────────────┐   ┌───────┴───────────────────┐   ┌────────────────────┐
-  │  dim_dosen   │   │  Fact_PenelitianPublikasi  │   │  dim_kolaborator   │
-  │  id_dosen PK │◄──│  id_fact (PK)             │──►│  id_kolaborator PK │
-  │  nama_dosen  │   │  id_dosen (FK)            │   │  nama_kolaborator  │
-  │  nidn        │   │  id_penelitian (FK)        │   │  tipe_kolaborator  │
-  │  kode_dosen  │   │  id_publikasi (FK)         │   │  negara            │
-  │  prodi       │   │  id_kolaborator (FK)       │   └────────────────────┘
-  │  fakultas    │   │  id_waktu (FK)             │
-  │  kelompok_   │   │  jumlah_sitasi             │   ┌────────────────────┐
-  │  keahlian    │   │  jumlah_hibah              │   │  dim_penelitian    │
-  └──────────────┘   │  dana_terpakai             │──►│  id_penelitian PK  │
-                     └───────────────────────────┬┘   │  judul_penelitian  │
-                                                 │    │  skema_penelitian  │
-                                                 │    │  jenis_pendanaan   │
-                     ┌────────────────────┐      │    │  sdgs / trl        │
-                     │  dim_publikasi     │◄─────┘    └────────────────────┘
-                     │  id_publikasi PK   │
-                     │  judul_publikasi   │
-                     │  jenis_publikasi   │
-                     │  sistem_indeksasi  │
-                     │  sitasi_ts / ts1.. │
-                     └────────────────────┘
-```
+[Star Schema](docs/assets/final_starSchema_DWH.png)
 
 ---
 
@@ -229,10 +187,17 @@ Raw data access is restricted to authorized team members only.
 
 Built by a student team from Fakultas Informatika, Universitas Telkom as part of a data warehouse & business intelligence course project.
 
-<!-- Add your team members below -->
-<!--
-| Name | Role |
-|---|---|
-| [Your Name](https://github.com/username) | Data Warehouse & ETL |
-| ... | ... |
--->
+### Data Warehouse Team:
+1. Kevin Jonathan Rotty - Team Lead [@KevinJonathanR](https://github.com/KevinJonathanR)
+2. Frenwin
+3. Vadly Aryu Septian
+4. Rifa Mayshakori
+5. Ekmal Reyhan Tarihoran
+6. M. Zikra Al Rizkya
+
+### Dashboard Team:
+1. Kevin Jonathan Rotty - Team Lead
+2. Muhammad Rafif
+3. Justin Jeremia
+4. Eliezer Sharon
+5. Syahrul Surya
