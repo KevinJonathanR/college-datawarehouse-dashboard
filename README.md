@@ -100,7 +100,7 @@ The warehouse follows a **3-layer ETL architecture**:
 
 ## Star Schema (Layer 3)
 
-[Star Schema](docs/assets/final_starSchema_DWH.png)
+![Star Schema](docs/assets/final_starSchema_DWH.png)
 
 ---
 
