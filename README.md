@@ -12,7 +12,7 @@ A team project building an end-to-end **data warehouse and business intelligence
 <!-- Add your Power BI screenshots here -->
 <!-- Tip: export as PNG from Power BI, place in docs/assets/, then uncomment below -->
 
-<!-- ![Dashboard Overview](docs/assets/dashboard-overview.png) -->
+![Dashboard Overview](docs/assets/preview-dashboard.png)
 <!-- ![Research Trends](docs/assets/dashboard-research-trends.png) -->
 <!-- ![Publication Metrics](docs/assets/dashboard-publication-metrics.png) -->
 
@@ -196,7 +196,7 @@ Built by a student team from Fakultas Informatika, Universitas Telkom as part of
 6. M. Zikra Al Rizkya
 
 ### Dashboard Team:
-1. Kevin Jonathan Rotty - Team Lead
+1. Kevin Jonathan Rotty - Team Lead [@KevinJonathanR](https://github.com/KevinJonathanR)
 2. Muhammad Rafif
 3. Justin Jeremia
 4. Eliezer Sharon
